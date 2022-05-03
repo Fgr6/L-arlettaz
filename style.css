@@ -76,6 +76,14 @@ header .bouton__header .bouton__header__contact:hover {
   font-size: 50px;
 }
 
+.section .section__presentation .section__presentation__resto p {
+  font-family: 'Lobster';
+  text-align: center;
+  margin-top: -25px;
+  color: #ce4257;
+  font-size: 20px;
+}
+
 .section .section__presentation .section__presentation__resto img {
   margin-left: 15px;
 }
@@ -103,6 +111,13 @@ header .bouton__header .bouton__header__contact:hover {
   text-align: center;
   color: #ce4257;
   font-size: 50px;
+}
+
+.section .section__localisation .section__localisation__maps p {
+  font-family: 'Lobster';
+  text-align: center;
+  color: #ce4257;
+  font-size: 20px;
 }
 
 .section .section__localisation .section__localisation__maps iframe {

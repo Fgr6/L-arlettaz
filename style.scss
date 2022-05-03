@@ -63,6 +63,13 @@ header{
                 color : $secondaire;
                 font-size: 50px;
             }
+            p{
+                font-family: 'Lobster';
+                text-align: center;
+                margin-top: -25px;
+                color : $secondaire;
+                font-size: 20px;  
+            }
             img{
                 margin-left: 15px;
             }
@@ -82,6 +89,12 @@ header{
                 text-align: center;
                 color : $secondaire;
                 font-size: 50px;
+            }
+            p{
+                font-family: 'Lobster';
+                text-align: center;
+                color : $secondaire;
+                font-size: 20px;
             }
             iframe{
                 border-radius: 25px;
