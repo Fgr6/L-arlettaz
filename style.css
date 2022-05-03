@@ -2,34 +2,117 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #CE4257;
+  background-color: #ff7f51;
 }
 
-h1 {
-  font-family: 'Lobster';
-  text-align: center;
-  font-size: 100px;
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.bouton__header {
+header h1 {
   font-family: 'Lobster';
-  border: solid;
+  width: 90%;
+  margin-left: 20px;
+  color: #ce4257;
+  font-size: 80px;
+}
+
+header .bouton__header {
+  font-family: 'Lobster';
   width: 100%;
+  text-align: right;
+  margin-top: 90px;
+}
+
+header .bouton__header .bouton__header__menu {
   padding: 15px;
+  margin-right: 20px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #ce4257;
+}
+
+header .bouton__header .bouton__header__menu:hover {
+  color: #ff9b54;
+  background-color: #ce4257;
+  border-radius: 15px;
+}
+
+header .bouton__header .bouton__header__contact {
+  padding: 15px;
+  margin-right: 20px;
+  font-size: 40px;
+  text-decoration: none;
+  color: #ce4257;
+}
+
+header .bouton__header .bouton__header__contact:hover {
+  color: #ff9b54;
+  background-color: #ce4257;
+  border-radius: 15px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .section__presentation {
+  border: solid 10px;
+  border-radius: 15px;
+  border-color: #ff9b54;
+  height: 500px;
+  width: 50%;
+  margin-right: 5%;
+}
+
+.section .section__presentation .section__presentation__resto h2 {
+  font-family: 'Lobster';
   text-align: center;
+  color: #ce4257;
+  font-size: 50px;
 }
 
-.bouton__header .bouton__header__menu {
-  padding: 15px;
-  font-size: 25px;
-  text-decoration: none;
-  color: black;
+.section .section__localisation {
+  border: solid 10px;
+  border-radius: 15px;
+  border-color: #ff9b54;
+  height: auto;
+  width: 50%;
 }
 
-.bouton__header .bouton__header__contact {
-  padding: 15px;
-  font-size: 25px;
-  text-decoration: none;
-  color: black;
+.section .section__localisation .section__localisation__maps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section .section__localisation .section__localisation__maps h2 {
+  font-family: 'Lobster';
+  text-align: center;
+  color: #ce4257;
+  font-size: 50px;
+}
+
+.section .section__localisation .section__localisation__maps iframe {
+  border-radius: 25px;
+  margin-left: 13%;
+  margin-bottom: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #ce4257;
 }
 /*# sourceMappingURL=style.css.map */

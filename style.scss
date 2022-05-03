@@ -1,31 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+$primaire: #ff7f51;
+$secondaire: #ce4257;
+$tertiaire: #ff9b54;
 *{
     box-sizing: border-box;
-    background-color: #CE4257;
+    background-color: $primaire;
 }
-h1{
-    font-family: 'Lobster';
-    text-align: center;
-    
-    font-size: 100px;
+header{
+    display: flex;
+    h1{
+        font-family: 'Lobster';
+        width: 90%;
+        margin-left: 20px;
+        color : $secondaire;
+        
+        font-size: 80px;
+    }
+    .bouton__header{
+        font-family: 'Lobster';
+        width: 100%;
+        text-align: right;
+        margin-top: 90px;
+        .bouton__header__menu{
+            padding: 15px;
+            margin-right: 20px;
+            font-size: 40px;
+            text-decoration: none;
+            color : $secondaire;
+            &:hover{
+                color: $tertiaire;
+                background-color: $secondaire;
+                border-radius: 15px;  
+            }
+        }
+        .bouton__header__contact{
+            padding: 15px;
+            margin-right: 20px;
+            font-size: 40px;
+            text-decoration: none;
+            color : $secondaire;
+            &:hover{
+                color: $tertiaire;
+                background-color: $secondaire;
+                border-radius: 15px;  
+            }
+        }
+    }
 }
-.bouton__header{
-    font-family: 'Lobster';
-    border : solid;
+.section{
+    display: flex;
+    .section__presentation{
+        border: solid 10px;
+        border-radius: 15px;
+        border-color: $tertiaire;
+        height: 500px;
+        width: 50%;
+        margin-right: 5%;
+        .section__presentation__resto{
+            h2{
+                font-family: 'Lobster';
+                text-align: center;
+                color : $secondaire;
+                font-size: 50px;
+            }
+        }
+    }
+    .section__localisation{
+        border: solid 10px;
+        border-radius: 15px;
+        border-color: $tertiaire;
+        height: auto;
+        width: 50%;
+        .section__localisation__maps{
+            display: flex;
+            flex-direction: column;
+            h2{
+                font-family: 'Lobster';
+                text-align: center;
+                color : $secondaire;
+                font-size: 50px;
+            }
+            iframe{
+                border-radius: 25px;
+                margin-left: 13%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+footer{
     width: 100%;
-    padding: 15px;
-    text-align: center;
-    
-    .bouton__header__menu{
-        padding: 15px;
-        font-size: 25px;
-        text-decoration: none;
-        color: black;
-    }
-    .bouton__header__contact{
-        padding: 15px;
-        font-size: 25px;
-        text-decoration: none;
-        color: black;
-    }
+    height: 100px;
+    margin-top: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: $secondaire;
 }
