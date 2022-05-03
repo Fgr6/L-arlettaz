@@ -2,7 +2,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #ff7f51;
+  background-color: #f2e5d7;
 }
 
 header {
@@ -64,7 +64,7 @@ header .bouton__header .bouton__header__contact:hover {
   border: solid 10px;
   border-radius: 15px;
   border-color: #ff9b54;
-  height: 500px;
+  height: auto;
   width: 50%;
   margin-right: 5%;
 }
@@ -74,6 +74,10 @@ header .bouton__header .bouton__header__contact:hover {
   text-align: center;
   color: #ce4257;
   font-size: 50px;
+}
+
+.section .section__presentation .section__presentation__resto img {
+  margin-left: 15px;
 }
 
 .section .section__localisation {

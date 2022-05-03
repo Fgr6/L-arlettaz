@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
-$primaire: #ff7f51;
+$primaire: #f2e5d7;
 $secondaire: #ce4257;
 $tertiaire: #ff9b54;
 *{
@@ -53,7 +53,7 @@ header{
         border: solid 10px;
         border-radius: 15px;
         border-color: $tertiaire;
-        height: 500px;
+        height: auto;
         width: 50%;
         margin-right: 5%;
         .section__presentation__resto{
@@ -62,6 +62,9 @@ header{
                 text-align: center;
                 color : $secondaire;
                 font-size: 50px;
+            }
+            img{
+                margin-left: 15px;
             }
         }
     }
